@@ -1,0 +1,96 @@
+/* Custom CSS for Availablechapterssection */
+.available-chapters-container h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.1;
+  }
+  
+  .available-chapters-container .text-gray-400 {
+    color: #ccc;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .available-chapters-container .w-100 {
+    width: 100%;
+  }
+  
+  .available-chapters-container .h-full {
+    height: 100%;
+  }
+  
+  .available-chapters-container .mt-14 {
+    margin-top: 3.5rem;
+  }
+  
+  .available-chapters-container .gap-2 {
+    gap: 0.5rem;
+  }
+  
+  .available-chapters-container .gap-y-5 {
+    gap: 1.25rem;
+  }
+  
+  .available-chapters-container .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .available-chapters-container .w-304px {
+    width: 304px;
+  }
+  
+  .available-chapters-container .h-270px {
+    height: 270px;
+  }
+  
+  .available-chapters-container .px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  .available-chapters-container .py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .available-chapters-container .shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .available-chapters-container .border-solid {
+    border-style: solid;
+  }
+  
+  .available-chapters-container .border-gray-500 {
+    border-color: #ccc;
+  }
+  
+  .available-chapters-container .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .available-chapters-container .text-2xl {
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 3rem;
+  }
+  
+  .available-chapters-container .font-semibold {
+    font-weight: 600;
+  }
+  
+  .available-chapters-container .font-nunito {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .available-chapters-container .text-19px {
+    font-size: 19px;
+  }
+  
+  .available-chapters-container .text-gray-400 {
+    color: #ccc;
+  }
+  
+  /* Add more styles as needed */
+  

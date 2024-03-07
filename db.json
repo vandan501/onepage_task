@@ -1,0 +1,1200 @@
+{
+  "course": [
+    {
+      "dates_banner_info": {
+          "missed_deadlines": false,
+          "content_type_gating_enabled": false,
+          "missed_gated_content": false,
+          "verified_upgrade_link": null
+      },
+      "can_show_upgrade_sock": false,
+      "verified_mode": null,
+      "access_expiration": null,
+      "cert_data": {
+          "cert_status": "audit_passing",
+          "cert_web_view_url": null,
+          "download_url": null,
+          "certificate_available_date": null
+      },
+      "course_blocks": {
+          "blocks": 
+          {
+              "block-v1:edX+DemoX+Demo_Course+type@course+block@course": {
+                  "children": [
+                      "block-v1:edX+DemoX+Demo_Course+type@chapter+block@d8a6192ade314473a78242dfeedfbf5b",
+                      "block-v1:edX+DemoX+Demo_Course+type@chapter+block@interactive_demonstrations",
+                      "block-v1:edX+DemoX+Demo_Course+type@chapter+block@graded_interactions",
+                      "block-v1:edX+DemoX+Demo_Course+type@chapter+block@social_integration",
+                      "block-v1:edX+DemoX+Demo_Course+type@chapter+block@1414ffd5143b4b508f739b563ab468b7",
+                      "block-v1:edX+DemoX+Demo_Course+type@chapter+block@efbb61eaca9d49fb9323a3330026a438",
+                      "block-v1:edX+DemoX+Demo_Course+type@chapter+block@d72c88b24aa041d082d27dbdcc5470f0",
+                      "block-v1:edX+DemoX+Demo_Course+type@chapter+block@cfdba89887054bd4a3e8c5eee3e1106f",
+                      "block-v1:edX+DemoX+Demo_Course+type@chapter+block@0465044d5f1644f4bb8838b6e7efab19"
+                  ],
+                  "complete": false,
+                  "description": null,
+                  "display_name": "Demonstration Course",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@course+block@course",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@course+block@course",
+                  "resume_block": true,
+                  "type": "course",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@chapter+block@d8a6192ade314473a78242dfeedfbf5b": {
+                  "children": [
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@edx_introduction",
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@3dd2cd57888347e68890da7a20788b90"
+                  ],
+                  "complete": true,
+                  "description": null,
+                  "display_name": "Introduction",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@chapter+block@d8a6192ade314473a78242dfeedfbf5b",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@chapter+block@d8a6192ade314473a78242dfeedfbf5b",
+                  "resume_block": false,
+                  "type": "chapter",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@edx_introduction": {
+                  "children": [],
+                  "complete": true,
+                  "description": "Exam",
+                  "display_name": "Demo Course Overview (1 Question)",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": "fa-pencil-square-o",
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@edx_introduction",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@edx_introduction",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": true
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@3dd2cd57888347e68890da7a20788b90": {
+                  "children": [],
+                  "complete": true,
+                  "description": null,
+                  "display_name": "Subsection",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@3dd2cd57888347e68890da7a20788b90",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@3dd2cd57888347e68890da7a20788b90",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@chapter+block@interactive_demonstrations": {
+                  "children": [
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@basic_questions"
+                  ],
+                  "complete": false,
+                  "description": null,
+                  "display_name": "Example Week 1: Getting Started",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@chapter+block@interactive_demonstrations",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@chapter+block@interactive_demonstrations",
+                  "resume_block": false,
+                  "type": "chapter",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5": {
+                  "children": [],
+                  "complete": false,
+                  "description": null,
+                  "display_name": "Lesson 1 - Getting Started",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@basic_questions": {
+                  "children": [],
+                  "complete": false,
+                  "description": "Homework",
+                  "display_name": "Homework - Question Styles (8 Questions)",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": "fa-pencil-square-o",
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@basic_questions",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@basic_questions",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": true
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@chapter+block@graded_interactions": {
+                  "children": [
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@simulations",
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@graded_simulations",
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@175e76c4951144a29d46211361266e0e"
+                  ],
+                  "complete": false,
+                  "description": null,
+                  "display_name": "Example Week 2: Get Interactive",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@chapter+block@graded_interactions",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@chapter+block@graded_interactions",
+                  "resume_block": false,
+                  "type": "chapter",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@simulations": {
+                  "children": [],
+                  "complete": false,
+                  "description": null,
+                  "display_name": "Lesson 2 - Let's Get Interactive!",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@simulations",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@simulations",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@graded_simulations": {
+                  "children": [],
+                  "complete": false,
+                  "description": "Homework",
+                  "display_name": "Homework - Labs and Demos (5 Questions)",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": "fa-pencil-square-o",
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@graded_simulations",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@graded_simulations",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": true
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@175e76c4951144a29d46211361266e0e": {
+                  "children": [],
+                  "complete": false,
+                  "description": null,
+                  "display_name": "Homework - Essays",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@175e76c4951144a29d46211361266e0e",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@175e76c4951144a29d46211361266e0e",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@chapter+block@social_integration": {
+                  "children": [
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@48ecb924d7fe4b66a230137626bfa93e",
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@dbe8fc027bcb4fe9afb744d2e8415855",
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@6ab9c442501d472c8ed200e367b4edfa"
+                  ],
+                  "complete": false,
+                  "description": null,
+                  "display_name": "Example Week 3: Be Social",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@chapter+block@social_integration",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@chapter+block@social_integration",
+                  "resume_block": false,
+                  "type": "chapter",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@48ecb924d7fe4b66a230137626bfa93e": {
+                  "children": [],
+                  "complete": false,
+                  "description": null,
+                  "display_name": "Lesson 3 - Be Social",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@48ecb924d7fe4b66a230137626bfa93e",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@48ecb924d7fe4b66a230137626bfa93e",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@dbe8fc027bcb4fe9afb744d2e8415855": {
+                  "children": [],
+                  "complete": false,
+                  "description": null,
+                  "display_name": "Homework - Find Your Study Buddy",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@dbe8fc027bcb4fe9afb744d2e8415855",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@dbe8fc027bcb4fe9afb744d2e8415855",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@6ab9c442501d472c8ed200e367b4edfa": {
+                  "children": [],
+                  "complete": false,
+                  "description": null,
+                  "display_name": "More Ways to Connect",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@6ab9c442501d472c8ed200e367b4edfa",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@6ab9c442501d472c8ed200e367b4edfa",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@chapter+block@1414ffd5143b4b508f739b563ab468b7": {
+                  "children": [
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@workflow",
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@d1d37e875a1e43b8b4591594f8115665"
+                  ],
+                  "complete": false,
+                  "description": null,
+                  "display_name": "About Exams and Certificates",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@chapter+block@1414ffd5143b4b508f739b563ab468b7",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@chapter+block@1414ffd5143b4b508f739b563ab468b7",
+                  "resume_block": false,
+                  "type": "chapter",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@workflow": {
+                  "children": [],
+                  "complete": false,
+                  "description": "Exam",
+                  "display_name": "edX Exams (6 Questions)",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": "fa-pencil-square-o",
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@workflow",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@workflow",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": true
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@d1d37e875a1e43b8b4591594f8115665": {
+                  "children": [],
+                  "complete": true,
+                  "description": null,
+                  "display_name": "Subsection",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@d1d37e875a1e43b8b4591594f8115665",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@d1d37e875a1e43b8b4591594f8115665",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@chapter+block@efbb61eaca9d49fb9323a3330026a438": {
+                  "children": [
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@45811efad2b8463bb98597260ae34fad",
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@5d61739b4a784bb69709e5b1a21e959f"
+                  ],
+                  "complete": true,
+                  "description": null,
+                  "display_name": "Section",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@chapter+block@efbb61eaca9d49fb9323a3330026a438",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@chapter+block@efbb61eaca9d49fb9323a3330026a438",
+                  "resume_block": false,
+                  "type": "chapter",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@45811efad2b8463bb98597260ae34fad": {
+                  "children": [],
+                  "complete": true,
+                  "description": null,
+                  "display_name": "Subsection",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@45811efad2b8463bb98597260ae34fad",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@45811efad2b8463bb98597260ae34fad",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@5d61739b4a784bb69709e5b1a21e959f": {
+                  "children": [],
+                  "complete": true,
+                  "description": null,
+                  "display_name": "Subsection",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@5d61739b4a784bb69709e5b1a21e959f",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@5d61739b4a784bb69709e5b1a21e959f",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@chapter+block@d72c88b24aa041d082d27dbdcc5470f0": {
+                  "children": [
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@e2fee641b0ac4c879aedd37650db579e",
+
+                      "block-v1:edX+DemoX+Demo_Course+type@sequential+block@b2a970dc9f8640a4bfa3f15cdcdb8c31"
+                  ],
+                  "complete": true,
+                  "description": null,
+                  "display_name": "SectionSGA",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@chapter+block@d72c88b24aa041d082d27dbdcc5470f0",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@chapter+block@d72c88b24aa041d082d27dbdcc5470f0",
+                  "resume_block": true,
+                  "type": "chapter",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@e2fee641b0ac4c879aedd37650db579e": {
+                  "children": [],
+                  "complete": true,
+                  "description": "sga_grade",
+                  "display_name": "SubsectionSGA (2 Questions)",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": "fa-pencil-square-o",
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@e2fee641b0ac4c879aedd37650db579e",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@e2fee641b0ac4c879aedd37650db579e",
+                  "resume_block": true,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": true
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@sequential+block@b2a970dc9f8640a4bfa3f15cdcdb8c31": {
+                  "children": [],
+                  "complete": true,
+                  "description": null,
+                  "display_name": "Subsection",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@b2a970dc9f8640a4bfa3f15cdcdb8c31",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@b2a970dc9f8640a4bfa3f15cdcdb8c31",
+                  "resume_block": false,
+                  "type": "sequential",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@chapter+block@cfdba89887054bd4a3e8c5eee3e1106f": {
+                  "children": [],
+                  "complete": true,
+                  "description": null,
+                  "display_name": "Section",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@chapter+block@cfdba89887054bd4a3e8c5eee3e1106f",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@chapter+block@cfdba89887054bd4a3e8c5eee3e1106f",
+                  "resume_block": false,
+                  "type": "chapter",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              },
+              "block-v1:edX+DemoX+Demo_Course+type@chapter+block@0465044d5f1644f4bb8838b6e7efab19": {
+                  "children": [],
+                  "complete": true,
+                  "description": null,
+                  "display_name": "Section",
+                  "due": null,
+                  "effort_activities": null,
+                  "effort_time": null,
+                  "icon": null,
+                  "id": "block-v1:edX+DemoX+Demo_Course+type@chapter+block@0465044d5f1644f4bb8838b6e7efab19",
+                  "lms_web_url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@chapter+block@0465044d5f1644f4bb8838b6e7efab19",
+                  "resume_block": false,
+                  "type": "chapter",
+                  "has_scheduled_content": null,
+                  "is_graded": false
+              }
+          }
+      },
+      "course_goals": {
+          "selected_goal": null,
+          "weekly_learning_goal_enabled": false
+      },
+      "course_tools": [
+          {
+              "analytics_id": "edx.bookmarks",
+              "title": "Bookmarks",
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/bookmarks/"
+          }
+      ],
+      "dates_widget": {
+          "course_date_blocks": [],
+          "dates_tab_link": "http://apps.logicknots.testbot.xyz:2000/learning/course/course-v1:edX+DemoX+Demo_Course/dates",
+          "user_timezone": null
+      },
+      "enroll_alert": {
+          "can_enroll": true,
+          "extra_text": null
+      },
+      "enrollment_mode": "audit",
+      "enable_proctored_exams": false,
+      "handouts_html": "<ol class=\"treeview-handoutsnav\">\n      <li><a href=\"/assets/courseware/v1/bf671d8e56ba192650e08878f95a76c2/asset-v1:edX+DemoX+Demo_Course+type@asset+block/demoPDF.pdf\"> Example handout </a> </li>\n    \n   </ol>",
+      "has_ended": false,
+      "offer": null,
+      "resume_course": {
+          "has_visited_course": true,
+          "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@edx_sga+block@c44eaa87a3c5402e92d85e93bba7679b",
+          "section_name": "SectionSGA"
+      },
+      "welcome_message_html": null,
+      "user_has_passing_grade": false,
+      "course_number": "DemoX",
+      "course_start_date": "Feb 05,05:30 IST",
+      "course_short_name": "The course description orients students by outlining the rationale for the course subject or theme, framing a brief overview of the key content, knowledge and skills to be learned and stating the major learning strategies and activities that students will experience."
+  }
+  ]
+  , 
+  "progress": [
+    {
+      "can_show_upgrade_sock": false,
+      "verified_mode": null,
+      "access_expiration": null,
+      "certificate_data": {
+        "cert_status": "audit_passing",
+        "cert_web_view_url": null,
+        "download_url": null,
+        "certificate_available_date": null
+      },
+      "completion_summary": {
+        "complete_count": 7,
+        "incomplete_count": 49,
+        "locked_count": 0
+      },
+      "course_grade": {
+        "letter_grade": null,
+        "percent": 0.28,
+        "is_passing": false
+      },
+      "credit_course_requirements": null,
+      "end": null,
+      "enrollment_mode": "audit",
+      "grading_policy": {
+        "assignment_policies": [
+          {
+            "num_droppable": 1,
+            "num_total": 3.0,
+            "short_label": "Ex",
+            "type": "Homework",
+            "weight": 0.75
+          },
+          {
+            "num_droppable": 0,
+            "num_total": 1.0,
+            "short_label": "",
+            "type": "Exam",
+            "weight": 0.25
+          },
+          {
+            "num_droppable": 0,
+            "num_total": 1.0,
+            "short_label": "",
+            "type": "Exam",
+            "weight": 0.25
+          },
+          {
+            "num_droppable": 0,
+            "num_total": 1.0,
+            "short_label": "",
+            "type": "Exam",
+            "weight": 0.25
+          },
+          {
+            "num_droppable": 0,
+            "num_total": 1.0,
+            "short_label": "",
+            "type": "Exam",
+            "weight": 0.25
+          },
+          {
+            "num_droppable": 0,
+            "num_total": 1.0,
+            "short_label": "",
+            "type": "Exam",
+            "weight": 0.25
+          },
+          {
+            "num_droppable": 0,
+            "num_total": 1.0,
+            "short_label": "",
+            "type": "Exam",
+            "weight": 0.25
+          },
+          {
+            "num_droppable": 0,
+            "num_total": 1.0,
+            "short_label": "",
+            "type": "Exam",
+            "weight": 0.25
+          },
+          {
+            "num_droppable": 0,
+            "num_total": 1.0,
+            "short_label": "",
+            "type": "Exam",
+            "weight": 0.25
+          },
+          {
+            "num_droppable": 0,
+            "num_total": 1.0,
+            "short_label": "sga_grade",
+            "type": "sga_grade",
+            "weight": 0.9
+          }
+        ],
+        "grade_range": {
+          "Pass": 0.6
+        }
+      },
+      "has_scheduled_content": null,
+      "section_scores": [
+        {
+          "display_name": "Introduction",
+          "subsections": [
+            {
+              "assignment_type": "Exam",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@edx_introduction",
+              "display_name": "Demo Course Overview",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 1.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@edx_introduction"
+            },
+            {
+              "assignment_type": null,
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@3dd2cd57888347e68890da7a20788b90",
+              "display_name": "Subsection",
+              "has_graded_assignment": false,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 1.0,
+              "num_points_possible": 1.0,
+              "percent_graded": 1.0,
+              "problem_scores": [
+                {
+                  "earned": 1.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@3dd2cd57888347e68890da7a20788b90"
+            }
+          ]
+        },
+        {
+          "display_name": "Example Week 1: Getting Started",
+          "subsections": [
+            {
+              "assignment_type": null,
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+              "display_name": "Lesson 1 - Getting Started",
+              "has_graded_assignment": false,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 3.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5"
+            },
+            {
+              "assignment_type": "Homework",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@basic_questions",
+              "display_name": "Homework - Question Styles",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 11.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 3.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 3.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 0.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@basic_questions"
+            }
+          ]
+        },
+        {
+          "display_name": "Example Week 2: Get Interactive",
+          "subsections": [
+            {
+              "assignment_type": null,
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@simulations",
+              "display_name": "Lesson 2 - Let's Get Interactive!",
+              "has_graded_assignment": false,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 0.0,
+              "percent_graded": 0.0,
+              "problem_scores": [],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@simulations"
+            },
+            {
+              "assignment_type": "Homework",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@graded_simulations",
+              "display_name": "Homework - Labs and Demos",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 5.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@graded_simulations"
+            },
+            {
+              "assignment_type": null,
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@175e76c4951144a29d46211361266e0e",
+              "display_name": "Homework - Essays",
+              "has_graded_assignment": false,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 19.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 19.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@175e76c4951144a29d46211361266e0e"
+            }
+          ]
+        },
+        {
+          "display_name": "Example Week 3: Be Social",
+          "subsections": [
+            {
+              "assignment_type": null,
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@48ecb924d7fe4b66a230137626bfa93e",
+              "display_name": "Lesson 3 - Be Social",
+              "has_graded_assignment": false,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 0.0,
+              "percent_graded": 0.0,
+              "problem_scores": [],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@48ecb924d7fe4b66a230137626bfa93e"
+            },
+            {
+              "assignment_type": null,
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@dbe8fc027bcb4fe9afb744d2e8415855",
+              "display_name": "Homework - Find Your Study Buddy",
+              "has_graded_assignment": false,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 0.0,
+              "percent_graded": 0.0,
+              "problem_scores": [],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@dbe8fc027bcb4fe9afb744d2e8415855"
+            },
+            {
+              "assignment_type": null,
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@6ab9c442501d472c8ed200e367b4edfa",
+              "display_name": "More Ways to Connect",
+              "has_graded_assignment": false,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 0.0,
+              "percent_graded": 0.0,
+              "problem_scores": [],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@6ab9c442501d472c8ed200e367b4edfa"
+            }
+          ]
+        },
+        {
+          "display_name": "About Exams and Certificates",
+          "subsections": [
+            {
+              "assignment_type": "Exam",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@workflow",
+              "display_name": "edX Exams",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 6.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                },
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@workflow"
+            },
+            {
+              "assignment_type": null,
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@d1d37e875a1e43b8b4591594f8115665",
+              "display_name": "Subsection",
+              "has_graded_assignment": false,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 0.0,
+              "percent_graded": 0.0,
+              "problem_scores": [],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@d1d37e875a1e43b8b4591594f8115665"
+            }
+          ]
+        },
+        {
+          "display_name": "Section",
+          "subsections": [
+            {
+              "assignment_type": null,
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@45811efad2b8463bb98597260ae34fad",
+              "display_name": "Subsection",
+              "has_graded_assignment": false,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 0.0,
+              "percent_graded": 0.0,
+              "problem_scores": [],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@45811efad2b8463bb98597260ae34fad"
+            },
+            {
+              "assignment_type": null,
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@5d61739b4a784bb69709e5b1a21e959f",
+              "display_name": "Subsection",
+              "has_graded_assignment": false,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 0.0,
+              "percent_graded": 0.0,
+              "problem_scores": [],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@5d61739b4a784bb69709e5b1a21e959f"
+            }
+          ]
+        },
+        {
+          "display_name": "SectionSGA",
+          "subsections": [
+            {
+              "assignment_type": "sga_grade",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@e2fee641b0ac4c879aedd37650db579e",
+              "display_name": "SubsectionSGA",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 123.0,
+              "num_points_possible": 200.0,
+              "percent_graded": 0.62,
+              "problem_scores": [
+                {
+                  "earned": 45.0,
+                  "possible": 100.0
+                },
+                {
+                  "earned": 78.0,
+                  "possible": 100.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@e2fee641b0ac4c879aedd37650db579e"
+            },
+            {
+              "assignment_type": null,
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@b2a970dc9f8640a4bfa3f15cdcdb8c31",
+              "display_name": "Subsection",
+              "has_graded_assignment": false,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 0.0,
+              "percent_graded": 0.0,
+              "problem_scores": [],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@b2a970dc9f8640a4bfa3f15cdcdb8c31"
+            }
+          ]
+        },
+        {
+          "display_name": "Section",
+          "subsections": []
+        },
+        {
+          "display_name": "Section",
+          "subsections": []
+        },
+        {
+          "display_name": "Assessment",
+          "subsections": [
+            {
+              "assignment_type": "Homework",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@5eff9e6fd5d64d219d477f9df3bc191f",
+              "display_name": "batch1",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 1.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@5eff9e6fd5d64d219d477f9df3bc191f"
+            },
+            {
+              "assignment_type": "Homework",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@a5f5557496894d5e97185fd32e2b1c70",
+              "display_name": "batch2",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 1.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@a5f5557496894d5e97185fd32e2b1c70"
+            },
+            {
+              "assignment_type": "Exam",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@24a6f88051454ace9953bacea7755baf",
+              "display_name": "batch3",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 1.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@24a6f88051454ace9953bacea7755baf"
+            }
+          ]
+        },
+        {
+          "display_name": "Assessment1",
+          "subsections": [
+            {
+              "assignment_type": "Homework",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@186f919dd342414bb1131b1806f499aa",
+              "display_name": "batch4",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 1.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@186f919dd342414bb1131b1806f499aa"
+            },
+            {
+              "assignment_type": "Exam",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@1c10845725764fa290366e073d009518",
+              "display_name": "batch5",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 1.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@1c10845725764fa290366e073d009518"
+            },
+            {
+              "assignment_type": "Homework",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@4d4dd4d34d784ac1a754d5dd57a2beca",
+              "display_name": "batch6",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 1.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@4d4dd4d34d784ac1a754d5dd57a2beca"
+            },
+            {
+              "assignment_type": "Exam",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@5051d2a6218448728ef6b3681249f103",
+              "display_name": "batch7",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 1.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 1.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@5051d2a6218448728ef6b3681249f103"
+            }
+          ]
+        },
+        {
+          "display_name": "Section",
+          "subsections": [
+            {
+              "assignment_type": "sga_grade",
+              "block_key": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@779defef0e2448bbaae84fcfa62f7d22",
+              "display_name": "Subsection",
+              "has_graded_assignment": true,
+              "override": null,
+              "learner_has_access": true,
+              "num_points_earned": 0.0,
+              "num_points_possible": 100.0,
+              "percent_graded": 0.0,
+              "problem_scores": [
+                {
+                  "earned": 0.0,
+                  "possible": 100.0
+                }
+              ],
+              "show_correctness": "always",
+              "show_grades": true,
+              "url": "http://logicknots.testbot.xyz:8000/courses/course-v1:edX+DemoX+Demo_Course/jump_to/block-v1:edX+DemoX+Demo_Course+type@sequential+block@779defef0e2448bbaae84fcfa62f7d22"
+            }
+          ]
+        }
+      ],
+      "studio_url": "//studio.logicknots.testbot.xyz:8001/settings/grading/course-v1:edX+DemoX+Demo_Course",
+      "username": "admin",
+      "user_has_passing_grade": false,
+      "verification_data": {
+        "link": null,
+        "status": "none",
+        "status_date": null
+      }
+    }
+  ]
+}

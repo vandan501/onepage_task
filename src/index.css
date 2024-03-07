@@ -1,13 +1,426 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* PC Large Screen */
+/* app.css */
+/* app-container Styles */
+.app-container {
+  position: relative;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: min-content;
+  color: black;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Course Overview Section Styles */
+.course-overview-title {
+  font-family: "Nunito";
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 55px;
+  text-align: left;
+  width: 100%;
+}
+
+.course-overview-container {
+  border: 0.35px solid gray;
+  /* width: 1250px; */
+  /* min-width: 1250px; */
+  /* max-width: 1375px; */
+  width: 95%;
+  padding: 20px 0px 20px 20px;
+  box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  padding-right: 0px;
+  gap: 20px;
+
+  min-height: 401px;
+  align-items: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+}
+.course-overview-img {
+  position: relative;
+  top: 0;
+}
+.course-overview-img img {
+  width: 298px;
+  height: 285px;
+}
+
+.course-title-description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem; /* 8px */
+  margin-right: 2.5rem; /* 40px */
+  width: 400px;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  height: 390px;
+  text-align: left;
+  gap: 37px;
+}
+.course-title {
+  font-family: "Nunito";
+  margin: 0px;
+  font-size: 38px;
+  width: 402px;
+}
+.currently-on {
+  margin: 0px;
+  font-size: 16px;
+  font-family: "Nunito";
+}
+.course-description {
+  font-size: 16px;
+  margin: 0px;
+  font-family: "Nunito";
+}
+
+.next-section-title {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.course-overview-btn {
+  background-color: #56b99c;
+  cursor: pointer;
+  margin-top: 36px;
+  width: 97px;
+  font-family: "Nunito";
+  padding-left: 1.25rem; /* 20px */
+  padding-right: 1.25rem; /* 20px */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 16px;
+  color: white;
+  height: 43px;
+  border: none;
+}
+.chart-section {
+  width: 435px;
+  /* height: 350px; */
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+.doughunt-chart-section {
+  width: 137px;
+  height: 100%;
+  padding: 20px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.unique {
+  position: relative;
+  top: 5px;
+}
+.chart-top-title {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  /* margin-left: 20px; */
+  transform: rotate(-90deg);
+  margin: 0px;
+
+width: 12px;
+
+}
+.chart-top-title1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 19px;
+  width: fit-content;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+
+position: relative;
+left: 10px;
+}
+.chart-bottom-title {
+  font-family: "Nunito", sans-serif;
+  font-size: 19px;
+  text-align: center;
+  width: 148px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.bar-top-flex {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 44px;
+}
+.status-flex-box {
+  position: absolute;
+  bottom: 70px;
+}
+.status-flex {
+  margin-top: 0px;
+  position: relative;
+  bottom: 2px;
+  left: 32px;
+  font-size: 27px;
+  font-family: "Nunito";
+  font-size: 27px;
+  font-weight: 600;
+
+}
+.status-flex2 {
+  position: relative;
+  bottom: 45px;
+  margin-left: 4px;
+  text-align: center;
+  color: #969696;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+
+}
+.bar-percentage-flex {
+  display: flex;
+  /* gap: 60px; */
+  gap: 0px;
+  margin-left: 35px;
+  width: 245px;
+  align-items: center;
+  color: #969696;
+  font-size: 12px;
+  justify-content: space-evenly;
+}
+.bar-chart-section {
+  width: 267px;
+  margin-right: 0px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  gap: 5px;
+}
+.per1 {
+  position: relative;
+  margin: 0px;
+  margin-left: 5px;
+  rotate: -90deg;
+  width: 2px;
+  font-size: 14px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.canvas {
+  width: 100%;
+}
+
+.chart-background {
+  background-color: #969696;
+  position: relative;
+  top: 0;
+  left: 25px;
+  border-radius: 0.375rem; /* Assuming 2px is the half of your specified height */
+  width: 236px;
+  height: 8px;
+}
+.doughnutchart {
+  position: relative;
+  bottom: -48px;
+}
+/* ******************Available chapters section */
+/* Available Chapters Section Styles */
+.available-chapters-container {
+  width: 100%;
+  height: min-content;
+}
+
+.available-ch-title {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-family: "Nunito";
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.course-start-date {
+  margin: 0px;
+  margin-left: 20px;
+  color: #969696;
+}
+.available-course-cards {
+  width: 100%;
+  height: min-content;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  margin-top: 26px;
+  row-gap: 30px;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.chapter-card {
+  width: 270px;
+  min-height: 230px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  border: 1px solid #969696;
+  padding-right: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0px 0px 5px #969696;
+}
+.gradedfalse {
+  height: 20px;
+  width: 20px;
+}
+.true-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gradedtrue {
+  width: 20px;
+  height: 20px;
+}
+.gradedtrue1 {
+  position: absolute;
+  z-index: 2px;
+  margin-left: 1.5px;
+  width: 12px;
+  height: 10px;
+}
+.ch-heading {
+  margin: 0px;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 66px;
+}
+.items-completed1 {
+  font-size: 19px;
+  font-family: "Nunito";
+  margin: 0px;
+}
+
+.items-completed2 {
+  font-size: 19px;
+  font-family: "Nunito";
+  color: #969696;
+  margin: 0px;
+}
+
+.graded-asignment-static-title {
+  font-size: 19px;
+  font-family: "Nunito";
+  color: #969696;
+  margin: 0px;
+}
+
+/* Tablet */
+@media only screen and (max-width: 500px) {
+  .chart-section {
+    flex-wrap: wrap-reverse;
+  }
+  .course-overview-container {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+  }
+  .course-title-description {
+    text-align: center;
+    font-size: 14px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding: 0px;
+    width: 90%;
+    margin-left: 0rem; /* 8px */
+    margin-right: 0rem; /* 40px */
+  }
+
+  .next-section-title {
+    text-align: center;
+  }
+  .course-overview-btn {
+    margin: auto;
+  }
+  .bar-top-flex {
+    display: flex;
+    gap: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+  }
+
+  .bar-percentage-flex {
+    margin-left: 0px;
+    justify-content: space-between;
+  }
+  .bar-chart-css {
+    box-sizing: border-box;
+    display: block;
+    height: 118px;
+    width: 340px;
+    margin-right: 37px;
+  }
+  .course-overview-container {
+    width: 93%;
+    padding: 20px 0px 20px 0px;
+  }
+  .course-title {
+    font-family: "Nunito";
+    margin: 0px;
+    width: 0px;
+    font-size: 28px;
+    width: 100%;
+  }
 }

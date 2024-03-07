@@ -1,0 +1,128 @@
+/* Custom CSS */
+.course-overview-container h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.1;
+  }
+  
+  .course-overview-container .border {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.3);
+    border-color: #ccc;
+  }
+  
+  .course-overview-container .relative img {
+    width: 298px;
+    height: 285px;
+  }
+  
+  .course-overview-container .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .course-overview-container .ml-2 {
+    margin-left: 0.5rem;
+  }
+  
+  .course-overview-container .mr-10 {
+    margin-right: 2.5rem;
+  }
+  
+  .course-overview-container .text-38px {
+    font-size: 38px;
+  }
+  
+  .course-overview-container .w-402px {
+    width: 402px;
+  }
+  
+  .course-overview-container .text-16px {
+    font-size: 16px;
+  }
+  
+  .course-overview-container .bg-56B99C {
+    background-color: #56b99c;
+  }
+  
+  .course-overview-container .w-97px {
+    width: 97px;
+  }
+  
+  .course-overview-container .px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  .course-overview-container .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .course-overview-container .h-43px {
+    height: 43px;
+  }
+  
+  .course-overview-container .text-white {
+    color: #fff;
+  }
+  
+  .course-overview-container .text-center {
+    text-align: center;
+  }
+  
+  .course-overview-container .donut-inner {
+    margin-top: -110px;
+  }
+  
+  .course-overview-container .bottom-2 {
+    bottom: 2px;
+  }
+  
+  .course-overview-container .bottom-4 {
+    bottom: 4px;
+  }
+  
+  .course-overview-container .ml-1 {
+    margin-left: 0.25rem;
+  }
+  
+  .course-overview-container .mt-5 {
+    margin-top: 1.25rem;
+  }
+  
+  .course-overview-container .ml-11 {
+    margin-left: 2.75rem;
+  }
+  
+  .course-overview-container .left-2 {
+    left: 0.5rem;
+  }
+  
+  .course-overview-container .gap-4 {
+    gap: 1rem;
+  }
+  
+  .course-overview-container .mt--110px {
+    margin-top: -110px;
+  }
+  
+  .course-overview-container .w-277px {
+    width: 277px;
+  }
+  
+  .course-overview-container .mr-7 {
+    margin-right: 1.75rem;
+  }
+  
+  .course-overview-container .text-19px {
+    font-size: 19px;
+  }
+  
+  .course-overview-container .mt-3 {
+    margin-top: 0.75rem;
+  }
+  
+  /* Add more styles as needed */
+  
