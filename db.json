@@ -540,70 +540,14 @@
             "num_total": 3.0,
             "short_label": "Ex",
             "type": "Homework",
-            "weight": 0.75
+            "weight": 0.55
           },
           {
             "num_droppable": 0,
             "num_total": 1.0,
             "short_label": "",
-            "type": "Exam",
-            "weight": 0.25
-          },
-          {
-            "num_droppable": 0,
-            "num_total": 1.0,
-            "short_label": "",
-            "type": "Exam",
-            "weight": 0.25
-          },
-          {
-            "num_droppable": 0,
-            "num_total": 1.0,
-            "short_label": "",
-            "type": "Exam",
-            "weight": 0.25
-          },
-          {
-            "num_droppable": 0,
-            "num_total": 1.0,
-            "short_label": "",
-            "type": "Exam",
-            "weight": 0.25
-          },
-          {
-            "num_droppable": 0,
-            "num_total": 1.0,
-            "short_label": "",
-            "type": "Exam",
-            "weight": 0.25
-          },
-          {
-            "num_droppable": 0,
-            "num_total": 1.0,
-            "short_label": "",
-            "type": "Exam",
-            "weight": 0.25
-          },
-          {
-            "num_droppable": 0,
-            "num_total": 1.0,
-            "short_label": "",
-            "type": "Exam",
-            "weight": 0.25
-          },
-          {
-            "num_droppable": 0,
-            "num_total": 1.0,
-            "short_label": "",
-            "type": "Exam",
-            "weight": 0.25
-          },
-          {
-            "num_droppable": 0,
-            "num_total": 1.0,
-            "short_label": "sga_grade",
-            "type": "sga_grade",
-            "weight": 0.9
+            "type": "Exam3",
+            "weight": 0.71
           }
         ],
         "grade_range": {

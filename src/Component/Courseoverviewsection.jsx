@@ -48,11 +48,9 @@ function Courseoverviewsection({
 
                   if (resumeBlock) {
                     return (
-                      
-                          <p className="next-section-title">
-                          {resumeBlock.join(", ")}
-                        </p>
-                      
+                      <p className="next-section-title">
+                        {resumeBlock.join(", ")}
+                      </p>
                     );
                   }
                   return null; // If resume_block is false or no matching sections, don't render anything
@@ -83,78 +81,60 @@ function Courseoverviewsection({
                 })}
                 <p className="chart-bottom-title unique">Items Completed</p>
               </div>
-              {/**BarChart*/}
-              <div className=" bar-chart-section">
+              {/**BarChart
+            
+            here i have changed 2 variable names  
+
+            weights and types 
+            in chart-top-title and bar-percentage-flex map function
+            
+            */}
+              <div className="bar-chart-section">
                 {progressData.map((item, index) => {
                   const types =
                     item.grading_policy?.assignment_policies.map(
                       (element) => element.type
                     ) || [];
-                  const CourseWeight =
+                  types.push("OverAll");
+                  const weights =
                     item.grading_policy?.assignment_policies.map(
                       (element) => element.weight
                     ) || [];
+                  // Calculate the sum of all values in the modified array
+                  console.log("weights::::", weights);
+                  const sumOfWeights = weights.reduce(
+                    (total, currentValue) => total + currentValue,
+                    0
+                  );
+                  console.log("sum of weights::::", sumOfWeights * 100);
+                  // Here I have assumed overall score
+                  const overallScore =
+                    (sumOfWeights / (weights.length * 100)) * 100;
+                  
+                    console.log("overAll-->", overallScore.toFixed(2));
+                   
+                  weights.push(overallScore);
 
                   return (
                     <>
                       <div className="bar-top-flex">
-                        <p className="chart-top-title ">{types[0]}</p>
-                        <p className="chart-top-title ">{types[1]}</p>
-                        <p className="chart-top-title ">{types[2]}</p>
-                        <p className="chart-top-title ">{types[0]}</p>
-                        <p className="chart-top-title ">{types[1]}</p>
-                        <p className="chart-top-title ">{types[2]}</p>
-                        <p className="chart-top-title ">{types[0]}</p>
-                        <p className="chart-top-title ">{types[1]}</p>
-                        <p className="chart-top-title ">{types[2]}</p>
-                        <p className="chart-top-title ">{types[2]}</p>
+                        {types.map((type, i) => (
+                          <p key={i} className="chart-top-title">
+                            {type}
+                          </p>
+                        ))}
                       </div>
-                      <div className="bar-percentage-flex ">
-                        <p className="per1"
-                        >
-                          {CourseWeight[0] * 100 + "%"}
-                        </p>
-                        <p className="per1"
-                        >
-                          {CourseWeight[0] * 100 + "%"}
-                        </p>
-                        <p className="per1"
-                        >
-                          {CourseWeight[0] * 100 + "%"}
-                        </p>
-                        <p className="per1"
-                        >
-                          {CourseWeight[0] * 100 + "%"}
-                        </p>
-                        <p className="per1"
-                        >
-                          {CourseWeight[0] * 100 + "%"}
-                        </p>
-                        <p className="per1"
-                        >
-                          {CourseWeight[0] * 100 + "%"}
-                        </p>
-                        <p className="per1"
-                        >
-                          {CourseWeight[0] * 100 + "%"}
-                        </p>
-                        <p className="per1"
-                        >
-                          {CourseWeight[0] * 100 + "%"}
-                        </p>
-                        <p className="per1"
-                        >
-                          {CourseWeight[0] * 100 + "%"}
-                        </p>
-                        <p className="per1"
-                        >
-                          {CourseWeight[0] * 100 + "%"}
-                        </p>
-                       
+                      <div className="bar-percentage-flex">
+                        {weights.map((weight, i) => (
+                          <p key={i} className="per">
+                            {(weight * 100).toFixed(0) + "%"}
+                          </p>
+                        ))}
                       </div>
                     </>
                   );
                 })}
+
                 <Barchart assignmentPolicies={assignmentPolicies} />
                 <p className="chart-bottom-title">Overall Grade</p>
               </div>

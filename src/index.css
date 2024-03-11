@@ -8,7 +8,7 @@ body {
 /* app-container Styles */
 .app-container {
   position: relative;
-  width: 100%;
+  width: 96%;
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 0px;
@@ -16,12 +16,14 @@ body {
   padding-right: 0px;
   height: min-content;
   color: black;
+  margin: 0px;
   margin-top: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 12px;
+  padding-left: 1%;
 }
 
 /* Course Overview Section Styles */
@@ -36,10 +38,8 @@ body {
 
 .course-overview-container {
   border: 0.35px solid gray;
-  /* width: 1250px; */
-  /* min-width: 1250px; */
-  /* max-width: 1375px; */
-  width: 95%;
+
+  width: 97%;
   padding: 20px 0px 20px 20px;
   box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.3);
   display: flex;
@@ -147,13 +147,13 @@ body {
 .chart-top-title {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
-  /* margin-left: 20px; */
   transform: rotate(-90deg);
   margin: 0px;
 
-width: 12px;
+width: 2px;
 
 }
+
 .chart-top-title1 {
   font-family: "Nunito", sans-serif;
   font-size: 19px;
@@ -179,10 +179,11 @@ left: 10px;
 .bar-top-flex {
   display: flex;
   justify-content: space-evenly;
-  gap: 10px;
+  gap: 7px;
   margin-top: 50px;
   margin-bottom: 20px;
-  margin-left: 44px;
+  width: 245px;
+  margin-left: 38px;
 }
 .status-flex-box {
   position: absolute;
@@ -213,8 +214,7 @@ left: 10px;
 }
 .bar-percentage-flex {
   display: flex;
-  /* gap: 60px; */
-  gap: 0px;
+  gap: 4px;
   margin-left: 35px;
   width: 245px;
   align-items: center;
@@ -234,7 +234,7 @@ left: 10px;
   padding: 20px 20px;
   gap: 5px;
 }
-.per1 {
+.per {
   position: relative;
   margin: 0px;
   margin-left: 5px;
